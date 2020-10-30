@@ -82,3 +82,31 @@ a{
 .intro-contents button{
 	margin-top: 30px;
 }
+
+					/*split intro strip 2*/
+
+.strip-2 {
+	height: 526px;
+	position: relative;
+
+}
+
+.img-1{
+	position: absolute;
+	max-width: 720px;
+	height: auto;
+}
+
+.container {
+	height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
