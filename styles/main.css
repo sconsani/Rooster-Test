@@ -27,6 +27,25 @@ a{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.left-contents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+}
+
+.right-contents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	/*padding-top: 50%;*/
+
+
+}
+
 .button-variant {
 	color: #FFFFFF;
 	background-color: #AC5FD0;
@@ -85,12 +104,24 @@ a{
 	margin-top: 30px;
 }
 
+
+
 					/*split intro strip 2*/
 
 .strip-2 {
-	height: 526px;
+	height: 600px;
+	width: auto;
+	margin: 0 auto;
 	position: relative;
 
+}
+
+.left-contents-1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+/*	transform: translate(-50%, -50%);
+*/	text-align: left;
 }
 
 .img-1{
@@ -110,21 +141,29 @@ a{
 	height: 600px;
 	background-image: url("../../front-end-dev-test-assets/banner-1.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	
+	width: auto;
+	margin: 0 auto;
+	position: relative;
 }
 
 					/*features banner Strip 4*/
 
 .strip-4 {
-	height: 600px;
+	height: auto;
 	background-color: #FFFFFF;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
 	
 }
 
 .strip-4 .row{
 justify-content: center;
-
 }
+
+
 
 #ft-grid{
 	background-color: #FAFAFA;
@@ -151,15 +190,29 @@ justify-content: center;
 
 }
 
-							/*strip 5 testimonials*/
+							/*strip 5 h1 p button*/
 
-.main-comment {
+.strip-5 {
+	height: 600px;
+	background-image: url("../front-end-dev-test-assets/banner-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+}
+
+
+
+							/*strip testimonials*/
+
+/*.main-comment {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-}
+}*/
 
 #client-testimonial-carousel {min-height: 350px;}
 
@@ -186,6 +239,8 @@ justify-content: center;
 }
 
 footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 
