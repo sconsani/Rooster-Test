@@ -1,7 +1,5 @@
 # front-end-dev-test
 
-https://sconsani.github.io/Rooster-Test/
-
 ## Intro
 
 Congratulations on making it to the testing phase of the hiring process! For this part, we would like to learn about your creativity, how well you code, and how well you follow instructions.
