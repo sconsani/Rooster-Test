@@ -1,5 +1,84 @@
 html {
-	background-color:blue ;
+	background-color: white ;
 	font-family: 'Open Sans', sans-serif;;
 
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: black;
+	background:
+	-webkit-text-fill-color: transparent;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #613476;
+}
+
+a{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button-variant {
+	color: #FFFFFF;
+	background-color: #AC5FD0;
+}
+
+.button-variant-2 {
+	color: #FFFFFF;
+	background-color: #FF7218;
+}
+
+.logo-header {
+	padding-top: 33px;
+	padding-left: 173px;
+}
+
+.logo {
+	height: 40px;
+}
+
+					/*intro welcome to Rooster Grin Strip*/
+.intro-strip{
+	height: 700px;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+
+	background-image: url("../front-end-dev-test-assets/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #FAFAFA;*/
+	
+}
+
+.intro-contents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.intro-contents h1 {
+	color: #FFFFFF;
+	font-size: 65px;
+	margin: 0 auto;
+
+}
+.intro-contents h2 {
+	color: #FFFFFF;
+	font-size: 60px;
+	margin: 0 auto;
+
+}
+
+.intro-contents button{
+	margin-top: 30px;
 }
