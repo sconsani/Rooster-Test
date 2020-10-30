@@ -4,6 +4,8 @@ html {
 
 }
 
+
+
 h1{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
@@ -140,7 +142,21 @@ justify-content: center;
 	height: 100px;
 }
 
+							/*strip 5 testimonials*/
 
+.main-comment {
+	text-align: center;
+}
+
+#client-testimonial-carousel {min-height: 400px;}
+
+.fa-star {
+	color: orange;
+}
+
+.dark {
+	color: black;
+}
 
 
 
