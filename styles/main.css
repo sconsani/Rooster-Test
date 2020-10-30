@@ -142,6 +142,9 @@ justify-content: center;
 	height: 100px;
 }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
 							/*strip 5 testimonials*/
 
 .main-comment {
