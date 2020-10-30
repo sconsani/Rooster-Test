@@ -43,7 +43,6 @@ a{
 	text-align: left;
 	/*padding-top: 50%;*/
 
-
 }
 
 .button-variant {
@@ -109,7 +108,7 @@ a{
 					/*split intro strip 2*/
 
 .strip-2 {
-	height: 600px;
+	height: auto;
 	width: auto;
 	margin: 0 auto;
 	position: relative;
@@ -120,14 +119,16 @@ a{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-/*	transform: translate(-50%, -50%);
-*/	text-align: left;
+	transform: translate(-50%, -50%);
+	text-align: left;
+
 }
 
 .img-1{
-	position: absolute;
-	max-width: 720px;
-	height: auto;
+	/*position: absolute;*/
+	max-width: 100%;
+	height: 100%;
+	justify-content: right;
 }
 
 .container {
@@ -142,10 +143,13 @@ a{
 	background-image: url("../../front-end-dev-test-assets/banner-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 	width: auto;
 	margin: 0 auto;
 	position: relative;
+}
+
+.strip-3 .row{
+justify-content: center;
 }
 
 					/*features banner Strip 4*/
