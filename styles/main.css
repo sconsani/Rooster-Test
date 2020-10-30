@@ -4,7 +4,10 @@ html {
 
 }
 
+/*h1 fade in animation*/
 
+
+		/*global attributes*/
 
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -35,6 +38,15 @@ a{
 	text-align: left;
 }
 
+.left-contents-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
 .right-contents{
 	position: absolute;
 	top: 50%;
@@ -48,11 +60,20 @@ a{
 .button-variant {
 	color: #FFFFFF;
 	background-color: #AC5FD0;
+	
+
 }
 
 .button-variant-2 {
 	color: #FFFFFF;
 	background-color: #FF7218;
+
+}
+
+.button-variant:hover {
+	background-color: white;
+	color: black;
+	
 }
 
 .logo-header {
@@ -105,6 +126,41 @@ a{
 
 
 
+.welcome-fade {
+	color: white;
+  	text-transform: none;
+	opacity: 0.0;
+  	animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
 					/*split intro strip 2*/
 
 .strip-2 {
@@ -125,9 +181,8 @@ a{
 }
 
 .img-1{
-	/*position: absolute;*/
-	max-width: 100%;
-	height: 100%;
+	max-width: auto;
+	height: auto;
 	justify-content: right;
 }
 
