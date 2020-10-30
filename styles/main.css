@@ -143,7 +143,13 @@ justify-content: center;
 }
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow:hover { transform: scale(1.3); }
+
+.feature-text {
+	font-size: 15pt;
+	color: #613476;
+
+}
 
 							/*strip 5 testimonials*/
 
