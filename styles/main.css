@@ -146,6 +146,7 @@ justify-content: center;
 
 .main-comment {
 	text-align: center;
+	vertical-align: middle;
 }
 
 #client-testimonial-carousel {min-height: 400px;}
@@ -158,7 +159,13 @@ justify-content: center;
 	color: black;
 }
 
+.carousel-indicators li {
+	border-top: 0px solid black;
+}
 
+.review-author {
+	color: #613476;
+}
 
 
 
