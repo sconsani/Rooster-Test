@@ -102,6 +102,44 @@ a{
 
 }
 
+					/*info banner Strip 3*/
+
+.strip-3 {
+	height: 600px;
+	background-image: url("../../front-end-dev-test-assets/banner-1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+					/*features banner Strip 4*/
+
+.strip-4 {
+	height: 600px;
+	background-color: #FFFFFF;
+	
+}
+
+.strip-4 .row{
+justify-content: center;
+
+}
+
+#ft-grid{
+	background-color: #FAFAFA;
+	text-align: center;
+
+	display: grid;
+	justify-content: center;
+	align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
+}
+
+.feature-img {
+	height: 100px;
+}
+
 
 
 
