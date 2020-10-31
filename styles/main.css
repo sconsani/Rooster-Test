@@ -38,6 +38,15 @@ a{
 	text-align: left;
 }
 
+.left-contents-banner{
+	position: absolute;
+	/*top: 75%;*/
+	left: 25%;
+	/*transform: translate(-50%, -50%);*/
+	text-align: left;
+	margin-top: 10%;
+}
+
 .left-contents-center {
 	position: absolute;
 	top: 50%;
@@ -60,14 +69,6 @@ a{
 .button-variant {
 	color: #FFFFFF;
 	background-color: #AC5FD0;
-	
-
-}
-
-.button-variant-2 {
-	color: #FFFFFF;
-	background-color: #FF7218;
-
 }
 
 .button-variant:hover {
@@ -75,6 +76,18 @@ a{
 	color: black;
 	
 }
+
+.button-variant-2 {
+	color: #FFFFFF;
+	background-color: #FF7218;
+}
+
+.button-variant-2:hover {
+	background-color: white;
+	color: black;
+	
+}
+
 
 .logo-header {
 	padding-top: 33px;
@@ -88,7 +101,7 @@ a{
 					/*intro welcome to Rooster Grin Strip*/
 .intro-strip{
 	height: 700px;
-	width: auto;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 
@@ -193,12 +206,12 @@ a{
 
 					/*info banner Strip 3*/
 
-.strip-3 {
+.strip-33 {
 	height: 600px;
 	background-image: url("../../front-end-dev-test-assets/banner-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: auto;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -246,7 +259,6 @@ justify-content: center;
 .feature-text {
 	font-size: 15pt;
 	color: #613476;
-
 }
 
 							/*strip 5 h1 p button*/
