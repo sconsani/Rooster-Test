@@ -4,7 +4,7 @@ html {
 
 }
 
-		/*global attributes*/
+		/*global attributes*/	
 
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -37,9 +37,7 @@ a{
 
 .left-contents-banner{
 	position: absolute;
-	/*top: 75%;*/
 	left: 25%;
-	/*transform: translate(-50%, -50%);*/
 	text-align: left;
 	margin-top: 10%;
 }
@@ -59,7 +57,6 @@ a{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: left;
-	/*padding-top: 50%;*/
 
 }
 
@@ -104,7 +101,6 @@ a{
 	background-image: url("../front-end-dev-test-assets/hero.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*background-color: #FAFAFA;*/
 	
 }
 
@@ -271,23 +267,6 @@ justify-content: center;
 	margin: 0px 70px 0px 70px;
 }
 
-/*@media only screen and (min-width: 400px) {
-    .strip-5{ 
-    	background-image: none;
-        background-color: purple;
-        height: 250px; 
-        margin: 0px;
-   }
-	.right-contents-banner{
-		position: absolute;
-
-		transform: translate(50%, -50%);
-		text-align: center;
-		margin-top: 20%;
-	}
-
-}*/
-
 .girl-banner-text {
 	font-size: 5vw;
 }
@@ -297,9 +276,7 @@ justify-content: center;
 
 .right-contents-banner{
 	position: absolute;
-	/*top: 75%;*/
 	left: 0%;
-	/*transform: translate(-50%, -50%);*/
 	text-align: center;
 	margin-top: 20%;
 }
@@ -316,7 +293,6 @@ justify-content: center;
 .dark {
 	color: black;
 }
-
 
 .carousel-indicators li {
 	border-top: 0px solid black;
@@ -336,8 +312,4 @@ footer {
 	padding-bottom: 30px;
 	text-align: center;
 }
-
-
-
-
 

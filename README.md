@@ -9,7 +9,7 @@ You can view my Rooster Grin Test at: https://sconsani.github.io/Rooster-Test/
   - My biggest struggle I faced was making the site mobile responsive. I think I could have better set up my css file to have organized sections for different viewpoints. I had a hard time with managing the background images and transitioning them into background colors when it got to mobile size.
 
   3. What you enjoyed the most and why.
-  - I really enjoyed this assignment because I love the challenge to translate client given materials and requirements into a functional, good looking design. I also had fun with having some flexibility in design and getting to keep to user in mind for what would be the best experience. 
+  - I really enjoyed this assignment because I love the challenge to translate client given materials and requirements into a functional, good looking design. I also had fun with having some flexibility in design and getting to keep to user in mind for what would be the best experience, especially with animations. 
 
 
 
