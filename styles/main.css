@@ -4,9 +4,6 @@ html {
 
 }
 
-/*h1 fade in animation*/
-
-
 		/*global attributes*/
 
 h1{
@@ -88,7 +85,6 @@ a{
 	
 }
 
-
 .logo-header {
 	padding-top: 33px;
 	padding-left: 173px;
@@ -137,8 +133,6 @@ a{
 	margin-top: 30px;
 }
 
-
-
 .welcome-fade {
 	color: white;
   	text-transform: none;
@@ -181,6 +175,7 @@ a{
 	width: auto;
 	margin: 0 auto;
 	position: relative;
+	min-height: 400px;
 
 }
 
@@ -213,7 +208,7 @@ a{
 
 .strip-33 {
 	height: 600px;
-	background-image: url("../../front-end-dev-test-assets/banner-1.jpg");
+	background-image: url("../front-end-dev-test-assets/banner-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -239,8 +234,6 @@ justify-content: center;
 .strip-4 .row{
 justify-content: center;
 }
-
-
 
 #ft-grid{
 	background-color: #FAFAFA;
@@ -268,7 +261,6 @@ justify-content: center;
 }
 
 							/*strip 5 h1 p button*/
-
 .strip-5 {
 	height: 600px;
 	background-image: url("../front-end-dev-test-assets/banner-2.jpg");
@@ -276,8 +268,25 @@ justify-content: center;
 	background-size: cover;
 	position: relative;
 	width: auto;
-	margin: 0px 100px 0px 100px;
+	margin: 0px 70px 0px 70px;
 }
+
+/*@media only screen and (min-width: 400px) {
+    .strip-5{ 
+    	background-image: none;
+        background-color: purple;
+        height: 250px; 
+        margin: 0px;
+   }
+	.right-contents-banner{
+		position: absolute;
+
+		transform: translate(50%, -50%);
+		text-align: center;
+		margin-top: 20%;
+	}
+
+}*/
 
 .girl-banner-text {
 	font-size: 5vw;
@@ -295,21 +304,10 @@ justify-content: center;
 	margin-top: 20%;
 }
 
-
-
-
-
 							/*strip testimonials*/
 
-/*.main-comment {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}*/
 
-#client-testimonial-carousel {min-height: 350px;}
+#client-testimonial-carousel {min-height: auto;}
 
 .fa-star {
 	color: orange;
