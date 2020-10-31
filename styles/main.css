@@ -270,8 +270,26 @@ justify-content: center;
 	background-size: cover;
 	position: relative;
 	width: auto;
-	margin: 0 auto;
+	margin: 0px 100px 0px 100px;
 }
+
+.girl-banner-text {
+	font-size: 70px;
+}
+.girl-banner-text-small {
+	font-size: 50px;
+}
+
+.right-contents-banner{
+	position: absolute;
+	/*top: 75%;*/
+	left: 0%;
+	/*transform: translate(-50%, -50%);*/
+	text-align: center;
+	margin-top: 20%;
+}
+
+
 
 
 
