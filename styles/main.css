@@ -193,8 +193,13 @@ a{
 
 }
 
+.image-right{
+	align-items: right;
+
+}
+
 .img-1{
-	max-width: auto;
+	max-width: 100%;
 	height: auto;
 	justify-content: right;
 }
@@ -251,6 +256,7 @@ justify-content: center;
 
 .feature-img {
 	height: 100px;
+	width: auto;
 }
 
 .grow { transition: all .2s ease-in-out; }
@@ -274,10 +280,10 @@ justify-content: center;
 }
 
 .girl-banner-text {
-	font-size: 70px;
+	font-size: 5vw;
 }
 .girl-banner-text-small {
-	font-size: 50px;
+	font-size: 3vw;
 }
 
 .right-contents-banner{
